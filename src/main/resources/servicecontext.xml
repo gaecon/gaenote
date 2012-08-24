@@ -10,7 +10,8 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 
-	<context:component-scan base-package="framewise.rest.sample" use-default-filters="false">
+	<context:component-scan base-package="com.gaecon.gaenote"
+		use-default-filters="false">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Service" />
 		<context:include-filter type="annotation"
